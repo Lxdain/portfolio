@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 18pt;
+}
+
+head {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.box {
+    border: 5px; 
+    border-style: solid;
+    border-color: white;
+    height: fit-content;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: justify;
+}
+
+#lxdain-logo {
+    height: 100px;
+    width: 100px;
+    display: inline;
+    float: left;
+    padding-right: 10px;
+}
+
+.video-embed {
+    width: 560px;
+    height: 315px;
+    position: relative;
+    margin-left: 36%; /*not good bruv*/
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+
