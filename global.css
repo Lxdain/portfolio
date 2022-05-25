@@ -38,22 +38,50 @@ p {
     text-align: justify;
 }
 
-#lxdain-logo {
-    height: 100px;
-    width: 100px;
-    display: inline;
-    float: left;
-    padding-right: 10px;
-}
-
-.video-embed {
+.div_video_embed {
     width: 560px;
     height: 315px;
+    display: block;
+    margin: auto;
+}
+
+.video_embed {
+    width: 560px;
+    height: 315px;
+    display: block;
     position: relative;
-    margin-left: 36%; /*not good bruv*/
+    align-items: center;
     border: 5px;
     border-style: solid;
     border-color: white;
 }
+
+.contain_stmenu {
+    display: block;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    border-style: solid;
+    border-color: white;
+    border: 5px;
+}
+
+.site_menu {
+    display: block;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.lxdain_logo {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+}
+
 
 
