@@ -21,7 +21,7 @@ p {
     text-align: justify;
 }
 
-.logo {
+.logo-icon {
     height: 50px;
     width: 50px;
     border-radius: 10px;
@@ -38,50 +38,37 @@ p {
     text-align: justify;
 }
 
-.div_video_embed {
+#music-cover {
     width: 560px;
     height: 315px;
     display: block;
     margin: auto;
-}
-
-.video_embed {
-    width: 560px;
-    height: 315px;
-    display: block;
-    position: relative;
-    align-items: center;
     border: 5px;
     border-style: solid;
     border-color: white;
 }
 
-.contain_stmenu {
-    display: block;
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    background-color: gray;
-    border-style: solid;
-    border-color: white;
-    border: 5px;
-}
-
-.site_menu {
-    display: block;
-    position: relative;
-}
-
-ul li {
-    display: inline-block;
-}
-
-.lxdain_logo {
-    height: 100px;
-    width: 100px;
+#lxdain_logo {
+    height: 50px;
+    width: 50px;
     display: inline-block;
     align-items: center;
+    margin-top: 10px;
 }
 
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: 5px solid white;
+}
+
+#navbar-list li {
+    display: inline;
+}
+
+.navbar-item {
+    margin: auto;
+}
 
 
